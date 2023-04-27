@@ -150,6 +150,25 @@ footer span {
   text-align: center;
 }
 
+kbd {
+  background-color: #999;
+  color: #222;
+  padding: 4px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  text-shadow: none;
+}
+
+.modal-keys {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.modal-keys span {
+  text-shadow: 1px 1px 5px black;
+}
+
 .closed {
   display: none;
 }
@@ -170,6 +189,7 @@ button:hover {
   color: #000;
   border: 2.5px solid #000;
 }
+
 
 @-webkit-keyframes bounce-in-top {
   0% {

@@ -27,7 +27,7 @@ function getGithubProfile(user) {
 function randomColor() {
   const color = "#" + (Math.round(Math.random() * 0XFFFFFF)).toString(16);
   card.style.backgroundColor = color
-  modal.style.backgroundColor = color + 'AA'
+  modal.style.backgroundColor = color + 'CC'
 }
 
 function openModal() {
@@ -67,7 +67,7 @@ function getUsername() {
   closeModal()
 }
 
-modal.addEventListener('keydown', (e) => {
+document.addEventListener('keydown', (e) => {
   if (e.key === "Escape") closeModal()
   if (e.key === "Enter") getUsername()
 })
